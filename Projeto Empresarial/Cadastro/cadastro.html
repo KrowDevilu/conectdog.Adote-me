@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="/style_geral.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <ul>
+                <li><img src="" alt="logo"></li>
+                <li><a href="/Home/home.html">Home</a></li>
+                <li><a href="/Doações/cartão/index.html">Doações</a></li>
+                <li><a href="/Página 2/pag2.html">Pets</a></li>
+                <li><a href="/Sobre nós/index.html">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="/Noticias e dicas/noticias/index.html">Notícias e Dicas</a></li>
+                <div class="nav_buttons">
+                    <a href="/Login/pag5.html"><button class="login ">Login</button></a>
+                    <a href="/Cadastro/cadastro.html"><Button class="cadastro ">Cadastre-se</Button></a>
+                </div>
+            </ul>
+        </header>
+        <article>Cadastre-se</article>
+        <main>
+            <form>
+                <ul>
+                    <li><label>Email:</label><input placeholder="Digite seu Email" type="email"></li>
+                    <li><label>Senha:</label><input placeholder="Digite sua senha" type="password"></li>
+                    <li><label>Confirmar senha:</label><input placeholder="Digite sua senha novamente" type="password"></li>
+                    <li><label>Nome Completo:</label><input placeholder="Digite o seu nome completo" type="search"></li>
+                    <li><label>CPF:</label><input placeholder="Digite o seu CPF" type="number"></li>
+                    <li><label>Data de Nascimento:</label><input type="date"></li>
+                    <li><label>Endereço:</label><input placeholder="Digite seu endereço" type="search"></li>
+                    <li><label>Cidade:</label><input placeholder="Digite o nome da sua cidade" type="search"><label>CEP:</label><input placeholder="Digite o seu CEP" type="number"></li>
+                    <li><label>Bairro:</label><input placeholder="Digite o nome do seu bairro" type="search"></li>
+                    <li><label>Genêro:</label><br><label for="femea">F</label><input style="width:5%; height: 10px;" type="checkbox" name="Femea" id="femea" value="Femea"><label for="macho">M</label><input style="width:5%; height: 10px; " type="checkbox"
+                            id="macho" name="Macho" value="Macho"></li>
+                </ul>
+            </form>
+        </main>
+        <aside>
+            <button class="envia" type="submit">Enviar</button>
+        </aside>
+        <footer>Ao Cadastre-se,você concorda com nossa <a href="#">política de privacidade</a></footer>
+
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="#">Home</a></li>
+                <li><a class="menu__item" href="#">Doações</a></li>
+                <li><a class="menu__item" href="#">Sobre Nós</a></li>
+                <li><a class="menu__item" href="#">Contato</a></li>
+                <li><a class="menu__item" href="#">Notícias e Dicas</a></li>
+            </ul>
+            <div class="menu_shadow"></div>
+        </div>
+    </div>
+</body>
+
+</html>
